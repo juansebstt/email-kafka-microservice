@@ -3,6 +3,8 @@ package com.emailkafkamicroservice.config;
 import com.emailkafkamicroservice.common.event.LetterEvent;
 import com.emailkafkamicroservice.common.event.NotificationEvent;
 import com.emailkafkamicroservice.common.event.PackageEvent;
+import com.emailkafkamicroservice.processor.impl.LetterEligibleProcessor;
+import com.emailkafkamicroservice.processor.impl.PackageEligibleProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Flux;
